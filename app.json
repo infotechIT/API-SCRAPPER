@@ -24,47 +24,15 @@
       "value": "https://example.com/"
     },
     "APP_TITLE": {
-      "description": "specify a custom app title",
+      "description": "specify a custom app title(Bot name)",
       "required": false
     },
     "APP_SHORT_NAME": {
-      "description": "specify a custom alphamumeric shortname (5-32 characters)",
+      "description": "specify a custom alphamumeric shortname (5-32 characters)(Bot name)",
       "required": false
     },
     "APP_URL": {
-      "description": "specify a custom app URL",
-      "required": false
-    },
-    "APP_DESCRIPTION": {
-      "description": "specify a custom app description",
-      "required": false
-    },
-    "FTEXT": {
-      "description": "the footer text that will be seen in the bot message, after the final edit",
-      "required": false
-    },
-    "START_TEXT": {
-      "description": "the start text of the Telegram bot",
-      "required": false
-    },
-    "AFTER_RECVD_CODE_TEXT": {
-      "description": "the message that should be displayed before receiving the code from the user",
-      "required": false
-    },
-    "BEFORE_SUCC_LOGIN": {
-      "description": "a temporary message that will be displayed after receiving the code, and before the validations",
-      "required": false
-    },
-    "ERRED_PAGE": {
-      "description": "a string which will **never** occur, but still exists?",
-      "required": false
-    },
-    "CANCELLED_MESG": {
-      "description": "a message that should be shown on /cancel",
-      "required": false
-    },
-    "IN_VALID_CODE_PVDED": {
-      "description": "a string which will **never** occur, but still exists?",
+      "description": "specify a custom app URL | https://telegram.dog/(BOT_USERNAME)",
       "required": false
     },
     "IN_VALID_PHNO_PVDED": {
