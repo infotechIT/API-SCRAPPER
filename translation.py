@@ -1,13 +1,23 @@
 class Translation(object):
-    START_TEXT = """Hi!
-I cant help you beacuse you are not authorized 
-contact @The_LegendBoy to use me or he will provide another bot
-remember only he can do this dont spam me if you spam i will not give you reply
+    START_TEXT = """Hi Welcome To Api Scrapping Bot!
+Thanks To Using Me
+Enter your Telegram Phone Number, to get the APP-ID from my.telegram.org
 
-So Stop here my friend.. """
-    AFTER_RECVD_CODE_TEXT = """I said just stop here dont spam me cotact @The_LegendBoy To Geg Authorized"""
+/start at any stage to re-enter your details"""
+    AFTER_RECVD_CODE_TEXT = """I see!
+now please send the Telegram code that you received from Telegram!
+this code is only used for the purpose of getting the APP ID from my.telegram.org
+if you do not trust this bot dev, please host this bot yourself
+by opening https://github.com/LEGEND-AI/API-SCRAPPER and clicking on the Pink Button
+
+/start at any stage to re-enter your details"""
+
     BEFORE_SUCC_LOGIN = "recieved code. Scarpping web page ..."
-    ERRED_PAGE = "something wrongings."
-    CANCELLED_MESG = "I said just stop here dont spam me cotact @The_LegendBoy to use me"
-    IN_VALID_CODE_PVDED = "Plz cotact @The_LegendBoy to use me"
-    IN_VALID_PHNO_PVDED = "Without Authorized Of @The_LegendBoy U cant use me"
+
+    ERRED_PAGE = "something wrongings. failed to get app id. \n\n@LegendBoy_XD"
+
+    CANCELLED_MESG = "Bye! Please re /start the bot conversation"
+
+    IN_VALID_CODE_PVDED = "sorry, but the input does not seem to be a valid Telegram Web-Login code"
+
+    IN_VALID_PHNO_PVDED = "sorry, but the input does not seem to be a valid phone number"
