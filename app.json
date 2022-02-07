@@ -21,7 +21,7 @@
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
-      "value": "https://example.com/"
+      "value": "https://<appname>.herokuapp.com/"
     },
     "APP_TITLE": {
       "description": "specify a custom app title(Bot name)",
@@ -33,10 +33,6 @@
     },
     "APP_URL": {
       "description": "specify a custom app URL | https://telegram.dog/(BOT_USERNAME)",
-      "required": false
-    },
-    "IN_VALID_PHNO_PVDED": {
-      "description": "a message that will be shown if `get_phno_imn_ges` logic, breaks",
       "required": false
     }
   },
