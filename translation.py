@@ -1,8 +1,11 @@
 class Translation(object):
-    START_TEXT =Hello
-Welcome to Telegram API ID & HASH
-Enter Your Telegram 📞Phone Number 📞
-__with country code eg.+9141985053855__
+    START_TEXT =Hi, Sir!
+I can get your Telegram APP ID & API Hash from my.telegram.org !!
+No need to go to website & login there. Just Login with me.
+
+Just Send me your Telegram Account's Phone Number to start process.
+Phone Number should be in International Format.
+Example: +9141985053855
 
 /start at any stage to re-enter your details
     AFTER_RECVD_CODE_TEXT = """I see!
