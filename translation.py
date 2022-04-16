@@ -1,11 +1,7 @@
 class Translation(object):
-    START_TEXT = Hi, Sir!
-I can get your Telegram APP ID & API Hash from my.telegram.org !!
-No need to go to website & login there. Just Login with me.
-
-Just Send me your Telegram Account's Phone Number to start process.
-Phone Number should be in International Format.
-Example: +88xxxxxxxx
+    START_TEXT ="""Hi Welcome To Telegram Org Bot!
+Thanks To Using Me
+Enter your Telegram Phone Number, to get the APP-ID from my.telegram.org
 
 /start at any stage to re-enter your details"""
     AFTER_RECVD_CODE_TEXT = """I see!
